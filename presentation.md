@@ -1,18 +1,24 @@
 ---
-title: Rust Demo
+title: Rust By Example (NSS)
 author: Steven Walter
 ...
 
-# Rust Demo
+# Rust by Example (NSS)
 
 ## What is rust?
 - fast
     - compiles to machine code
     - no garbage collector
+
+. . .
+
 - safe
     - strongly-typed
     - guaranteed memory safety
     - threads without data races
+
+. . .
+
 - systems programming language
     - suitable for bare metal development
     - allows "contained" unsafety
@@ -48,12 +54,13 @@ author: Steven Walter
 # Demo
 
 ## Rust features
-- compile-time checked format strings
-- move by default
-- no use-after-move
-- no data races
-- references can't be stolen
-- can't invalidate iterators
+> - type deduction
+> - compile-time checked format strings
+> - move by default
+> - no use-after-move
+> - no data races
+> - references can't be stolen
+> - can't invalidate iterators
 
 ## Fancy macros
 
@@ -63,3 +70,5 @@ fn main() {
     println!("{}", doc.to_string());
 }
 ~~~~~
+
+# What do you want to see?
