@@ -34,6 +34,11 @@ author: Steven Walter
     - C/C++ are old and problematic
     - Most modern languages are too high-level
 
+## How rust?
+- Thick Engine (most recently)
+- remoteobjects
+- various small utilities
+
 ## Web resources
 - http://rust-lang.org
 - http://play.rust-lang.org
@@ -52,7 +57,7 @@ author: Steven Walter
 
 ## Fancy macros
 
-~~~~ (#mycode .rust)
+~~~~ {.rust}
 fn main() {
     let mut doc: DOMTree<String> = html!(<h1></h1>);
     println!("{}", doc.to_string());
