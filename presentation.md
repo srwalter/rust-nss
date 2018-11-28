@@ -48,6 +48,7 @@ author: Steven Walter
 ## Web resources
 - http://rust-lang.org
 - http://play.rust-lang.org
+- http://doc.rust-lang.org
 - http://crates.io
 - http://docs.rs
 
