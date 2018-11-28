@@ -153,6 +153,8 @@ Compiler output:
     - type of arguments is validated
     - format string must be a literal (security)
 
+\pagebreak
+
 ## Coding examples (5)
 
 Code:
@@ -190,6 +192,8 @@ Compiler output:
 - move by default
 - no use-after-move
 
+\pagebreak
+
 ## Coding examples (6)
 
 Code:
@@ -207,6 +211,8 @@ fn main() {
 ~~~~
 
 Use borrow references to avoid the move
+
+\pagebreak
 
 ## Coding examples (7)
 
@@ -336,6 +342,8 @@ Since globals are visible to all threads, they must be const.  If they
 were directly mutable, nothing would stop multiple threads from racing
 the data.
 
+\pagebreak
+
 ## Coding examples (10)
 
 Code:
@@ -425,6 +433,8 @@ fn main() {
 ~~~~
 
 Marking "global" as mutable makes everything happy
+
+\pagebreak
 
 ## Coding examples (12)
 
